@@ -1,0 +1,16 @@
+{
+  "name": "ncc-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@vercel/ncc": "^0.28.6",
+    "typescript": "^4.3.2"
+  },
+  "scripts": {
+    "build": "ncc build index.ts -o dist -s --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
