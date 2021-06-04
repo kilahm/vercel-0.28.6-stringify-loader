@@ -5,8 +5,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "@vercel/ncc": "^0.28.6",
-    "typescript": "^4.3.2"
+    "@vercel/ncc": "0.28.6",
+    "typescript": "4.3.2"
   },
   "scripts": {
     "build": "ncc build index.ts -o dist -s --watch"
